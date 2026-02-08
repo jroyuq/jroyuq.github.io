@@ -1,43 +1,79 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Jonathan Roy</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
-  <!-- GitHub-like typography (matches the “Markdown rendered” look) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Jonathan Roy's Home Page</title>
 
-  <style>
-    /* Match the roomy, simple layout */
-    body { margin: 0; background: #fff; }
-    .wrap { max-width: 920px; margin: 0 auto; padding: 28px 18px; }
-    .markdown-body { box-sizing: border-box; }
 
-    /* Put photo above name (centered), like you asked */
-    .headshot { display:block; margin: 0 auto 14px auto; width: 200px; height: auto; }
 
-    /* Slightly mimic the “personal homepage” feel */
-    .center { text-align: center; }
-  </style>
-</head>
+<script type="text/javascript">
 
-<body>
-  <main class="wrap">
-    <article class="markdown-body">
+</script>
 
-      <div class="center">
-        <img class="headshot" src="headshot.jpg" alt="Jonathan Roy" />
-      </div>
+<style>
+  /* Container to center the thumbnail on the page (optional) */
+  .thumb-container {
+    max-width: 150px;
+    /* margin: 50px auto; */
+  }
 
-      <!-- DawnSong-like: H2 as the top title -->
-      <h2 class="center">Jonathan Roy</h2>
+  /* The thumbnail itself */
+  .thumbnail {
+    width: 150px;              /* desired thumbnail width */
+    height: 165px;             /* desired thumbnail height */
+    object-fit: cover;         /* crop to fill the box */
+    object-position: top center; /* focus on top/center (i.e. head) */
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color .2s;
+    /* Reserve space to prevent layout shifts */
+    min-width: 150px;
+    min-height: 165px;
+  }
+  .thumbnail:hover {
+    border-color: #888;
+  }
+  
+  /* Twitter widget container to prevent layout shift */
+  .twitter-container {
+    width: 200px; /* Reserve space for Twitter button */
+    height: 30px; /* Reserve height for Twitter button */
+    display: flex;
+    align-items: center;
+  }
+</style>
 
-      <p class="center">
-        Professor<br>
-        Cybersecurity / AI-driven Security<br>
-        Université du Québec à Chicoutimi (UQAC) / ÉTS Montréal
-      </p>
+<body style="background-color: rgb(255, 255, 255);margin-top:10;margin-left:auto;margin-right:auto;max-width:1000px;font-size:18px;">
+
+<table border="0" style="margin: 0 auto;">
+  <tbody>
+    <tr>
+      <td> 
+        <div class="thumb-container">
+          <a href="jonathanroy-full.jpg" target="_blank" title="View full-size headshot">
+            <img 
+              src="jonthanroy.png" 
+              alt="Headshot" 
+              class="thumbnail">
+          </a>
+        </div>
+      </td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+      <td>
+      <h2>Jonathan Roy </h2>
+      Professor<br> Computer Science <br>
+University of Québec in Chicoutimi
+      </td>
+<td>
+
+</td>
+    </tr>
+  </tbody>
+</table>
 
       <p class="center">
         <a href="cv.pdf">CV</a> &nbsp;|&nbsp;
