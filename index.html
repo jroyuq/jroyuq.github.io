@@ -1,94 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Jonathan Roy</title>
+
+  <!-- GitHub-like typography (matches the “Markdown rendered” look) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css">
+
+  <style>
+    /* Match the roomy, simple layout */
+    body { margin: 0; background: #fff; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 28px 18px; }
+    .markdown-body { box-sizing: border-box; }
+
+    /* Put photo above name (centered), like you asked */
+    .headshot { display:block; margin: 0 auto 14px auto; width: 200px; height: auto; }
+
+    /* Slightly mimic the “personal homepage” feel */
+    .center { text-align: center; }
+  </style>
 </head>
 
-<body style="
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
-  line-height: 1.6;
-  margin: 40px;
-  color: #000;
-  background: #fff;
-">
+<body>
+  <main class="wrap">
+    <article class="markdown-body">
 
-  <!-- Photo above name -->
-  <p style="text-align:center;">
-    <img src="headshot.jpg" alt="Jonathan Roy" width="180">
-  </p>
+      <div class="center">
+        <img class="headshot" src="headshot.jpg" alt="Jonathan Roy" />
+      </div>
 
-  <!-- Name -->
-  <p style="text-align:center; font-size:28px; margin-bottom:10px;">
-    <b>Jonathan Roy</b>
-  </p>
+      <!-- DawnSong-like: H2 as the top title -->
+      <h2 class="center">Jonathan Roy</h2>
 
-  <!-- Affiliation -->
-  <p style="text-align:center;">
-    Cybersecurity Professor<br>
-    Université du Québec à Chicoutimi (UQAC)<br>
-    École de technologie supérieure (ÉTS Montréal)
-  </p>
+      <p class="center">
+        Professor<br>
+        Cybersecurity / AI-driven Security<br>
+        Université du Québec à Chicoutimi (UQAC) / ÉTS Montréal
+      </p>
 
-  <!-- Contact -->
-  <p style="text-align:center;">
-    <b>Email:</b> your.email@university.ca
-  </p>
+      <p class="center">
+        <a href="cv.pdf">CV</a> &nbsp;|&nbsp;
+        <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a> &nbsp;|&nbsp;
+        <a href="https://orcid.org/YOUR-ORCID">ORCID</a> &nbsp;|&nbsp;
+        <a href="https://github.com/jroyuq">GitHub</a> &nbsp;|&nbsp;
+        <a href="mailto:your.email@university.ca">Email</a>
+      </p>
 
-  <!-- Links -->
-  <p style="text-align:center;">
-    <a href="cv.pdf">CV</a> |
-    <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a> |
-    <a href="https://orcid.org/YOUR-ORCID">ORCID</a> |
-    <a href="https://github.com/jroyuq">GitHub</a>
-  </p>
+      <!-- DawnSong-like sectioning: ### headers -->
+      <h3>News</h3>
+      <ul>
+        <li>Accepting MSc/PhD students (Fall 2026).</li>
+        <li>New paper/demo on continuous access control policy verification in hybrid IT environments.</li>
+      </ul>
 
-  <!-- Research -->
-  <p><b>Research</b></p>
+      <h3>Research</h3>
+      <ul>
+        <li><b>Research interests:</b> trustworthy AI for cybersecurity operations, SOC/OT analytics, knowledge graphs/ontologies, standards-aligned security engineering.</li>
+      </ul>
 
-  <p>
-    My research focuses on the automation of cybersecurity operations using artificial intelligence,
-    with an emphasis on trustworthy, explainable, and standards-aligned decision-support systems.
-    I am particularly interested in bridging academic research with real operational environments,
-    including SOC and OT/ICS contexts.
-  </p>
+      <p>
+        My research focuses on automating cybersecurity operations using AI, with an emphasis on
+        trustworthy, explainable, and standards-aligned decision support in real operational environments.
+      </p>
 
-  <!-- Interests -->
-  <p><b>Research Interests</b></p>
+      <ul>
+        <li><b>Publications:</b>
+          <ul>
+            <li><a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a></li>
+          </ul>
+        </li>
+      </ul>
 
-  <ul>
-    <li>AI-driven cybersecurity automation</li>
-    <li>Alert triage and false-positive reduction</li>
-    <li>Knowledge graphs and ontologies for security reasoning</li>
-    <li>Access control policy verification in hybrid IT environments</li>
-    <li>OT / ICS security analytics</li>
-  </ul>
+      <h3>Teaching</h3>
+      <ul>
+        <li>SOC Incident Response Lab</li>
+        <li>OT/ICS Security</li>
+      </ul>
 
-  <!-- Students -->
-  <p><b>Students</b></p>
+      <h3>Industry</h3>
+      <p>
+        I have 19 years of industry experience and founded a cybersecurity startup based on my doctoral research.
+        I collaborate with industry partners on applied research and technology transfer.
+      </p>
 
-  <p>
-    I am looking for motivated MSc and PhD students interested in applied cybersecurity research
-    at the intersection of AI, systems, and real-world security operations.
-  </p>
-
-  <!-- Industry -->
-  <p><b>Industry</b></p>
-
-  <p>
-    I have 19 years of industry experience and am the founder of a cybersecurity startup based on my
-    doctoral research. I collaborate closely with industry partners on applied research and
-    technology transfer.
-  </p>
-
-  <!-- Publications -->
-  <p><b>Publications</b></p>
-
-  <p>
-    See <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a> for a complete
-    list of publications.
-  </p>
-
+    </article>
+  </main>
 </body>
 </html>
